@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.2.1">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>pianoman-helicopter-navdata-norway</Title>
+		<Manufacturer/>
+		<Creator>pianoman</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\pianoman-helicopter-navdata-norway\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\pianoman-helicopter-navdata-norway\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ENBR">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\helicopter-navdata-norway\ENBR\</AssetDir>
+			<OutputDir>Scenery\helicopter-navdata-norway\ENBR\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ENTX">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\helicopter-navdata-norway\ENTX\</AssetDir>
+			<OutputDir>Scenery\helicopter-navdata-norway\ENTX\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ENZV">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\helicopter-navdata-norway\ENZV\</AssetDir>
+			<OutputDir>Scenery\helicopter-navdata-norway\ENZV\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

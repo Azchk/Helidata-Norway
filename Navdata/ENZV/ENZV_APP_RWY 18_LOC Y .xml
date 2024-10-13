@@ -1,0 +1,19 @@
+	<Approach type="LOCALIZER" runway="18" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" altitude="1500.0F" heading="177.0" missedAltitude="3000.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" recommendedRegion="EN" altitudeDescriptor="+" altitude1="1500.0F"/>			
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="6.1N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="20LOC" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="3.4N" magneticCourse="177.0" distance="2.7N" altitudeDescriptor="V" altitude1="650.0F" altitude2="650.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ML18Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="3.4N" magneticCourse="177.0" distance="1.5N" altitudeDescriptor="A" altitude1="170.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CD" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="248.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="R" altitudeDescriptor="A" altitude1="3000.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitude="1500.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitudeDescriptor="+" altitude1="1500.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" magneticCourse="087.0" distance="3.0N" altitudeDescriptor="+" altitude1="1500.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>

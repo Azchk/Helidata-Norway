@@ -1,0 +1,27 @@
+	<Arrival name="EVOL1S">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="EVOLO"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMRUN" magneticCourse="036.0" distance="19.9N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV691" magneticCourse="341.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV690" magneticCourse="013.0" distance="3.3N"/>				
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" turnDirection="R" magneticCourse="118.0" distance="6.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="UTER1S">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UTERU"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV692" magneticCourse="108.0" distance="10.9N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMRUN" magneticCourse="055.0" distance="3.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV691" magneticCourse="341.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV690" magneticCourse="013.0" distance="3.3N"/>				
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" turnDirection="R" magneticCourse="118.0" distance="6.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>

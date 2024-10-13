@@ -1,0 +1,23 @@
+	<Departure name="INLU1G">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="450.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV490" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="229.0" distance="2.9N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ETRO1H">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="36" designator="NONE">
+				<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="450.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV590" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ETROM" magneticCourse="297.0" distance="13.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>

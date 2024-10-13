@@ -1,0 +1,20 @@
+{
+  "package-name": "pianoman-helicopter-navdata-norway",
+  "items": [
+    {
+      "type": "Airport",
+      "content": "ENBR",
+      "revision": 1
+    },
+    {
+      "type": "Airport",
+      "content": "ENZV",
+      "revision": 1
+    },
+    {
+      "type": "Airport",
+      "content": "ENTX",
+      "revision": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+	<Approach type="ILS" runway="35" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMPOR" altitude="1200.0F" heading="350.0" missedAltitude="2100.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="7.5N" altitudeDescriptor="J" altitude1="1600.0F" altitude2="1200.0F"/>			
+			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMPOR" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="4.7N" magneticCourse="350.0" distance="2.8N" altitudeDescriptor="H" altitude1="1200.0F" altitude2="1200.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW35" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="1.6N" magneticCourse="350.0" distance="3.2N" altitudeDescriptor="A" altitude1="202.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="16BG" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
+			<Leg type="CD" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" magneticCourse="320.0" distance="7.0N"/>
+			<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="8.0N" magneticCourse="320.0" altitudeDescriptor="A" altitude1="2100.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitude="1600.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" magneticCourse="069.0" distance="5.5N" altitudeDescriptor="+" altitude1="1600.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>

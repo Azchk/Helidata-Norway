@@ -1,0 +1,23 @@
+<CommandsInputs>
+	<File Path="D:\Flightsim modding\Navdata\pianoman-helicopter-navdata-norway\PackageSources\Scenery\helicopter-navdata-norway\ENTX\ENTX.xml" Failure="0">
+		<Package Name="pianoman-helicopter-navdata-norway" Failure="0">
+			<AssetGroup Name="ENTX"/>
+		</Package>
+	</File>
+	<File Path="D:\Flightsim modding\Navdata\pianoman-helicopter-navdata-norway\PackageSources\Scenery\helicopter-navdata-norway\ENZV\ENZV.xml" Failure="0">
+		<Package Name="pianoman-helicopter-navdata-norway" Failure="0">
+			<AssetGroup Name="ENZV"/>
+		</Package>
+	</File>
+	<File Path="D:\Flightsim modding\Navdata\pianoman-helicopter-navdata-norway\PackageSources\Scenery\helicopter-navdata-norway\ENBR\ENBR.xml" Failure="0">
+		<Package Name="pianoman-helicopter-navdata-norway" Failure="0">
+			<AssetGroup Name="ENBR"/>
+		</Package>
+	</File>
+	<File Path="D:\Flightsim modding\Navdata\pianoman-helicopter-navdata-norway\PackageDefinitions\pianoman-helicopter-navdata-norway\ContentInfo\Thumbnail.jpg" Failure="0">
+		<Package Name="pianoman-helicopter-navdata-norway" Failure="0">
+			<AssetGroup Name="ContentInfo"/>
+		</Package>
+	</File>
+</CommandsInputs>
+

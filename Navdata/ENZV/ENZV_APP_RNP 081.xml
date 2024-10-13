@@ -1,0 +1,24 @@
+	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV442" altitude="1100F" heading="081.0" missedAltitude="1400F" lnav="TRUE" lnavvnav="FALSE" lpv="TRUE" lp="FALSE">
+		<ApproachLegs>	
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" altitudeDescriptor="+" altitude1="1300F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV442" magneticCourse="081.0" distance="3.0N" altitudeDescriptor="+" altitude1="1100F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV465" flyOver="TRUE" magneticCourse="081.0" distance="2.0N" altitudeDescriptor="A" altitude1="360.0F" verticalAngle="-3.5" speedLimit="90"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV443" flyOver="TRUE" magneticCourse="081.0" distance="1.5N" speedLimit="90"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" flyOver="FALSE" altitudeDescriptor="A" altitude1="1400F" speedLimit="90"/>
+			<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" magneticCourse="294.0" time="1" altitudeDescriptor="A" altitude1="1400F" speedLimit="120"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV439" altitude="1300F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV439" altitudeDescriptor="+" altitude1="1300F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" magneticCourse="151.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300F"/>	
+			</TransitionLegs>
+		</Transition>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV440" altitude="1300F">
+			<TransitionLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV440" altitudeDescriptor="+" altitude1="1300F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" magneticCourse="011.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300F"/>
+			</TransitionLegs>
+		</Transition>
+	</Approach>

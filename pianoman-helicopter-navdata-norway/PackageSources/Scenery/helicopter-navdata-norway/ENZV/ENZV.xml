@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport displayName="Sola" groupID="4294967295" groupGenerated="FALSE" name="Sola" ident="ENZV" lat="58.87666650116444" lon="5.63777759671211" alt="5.63800048828125" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+	<Waypoint lat="58.776028" lon="5.414917" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="IGSUF"/>
+	<Waypoint lat="58.835783" lon="5.566381" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="NOVDE"/>
+	<Waypoint lat="58.992086" lon="5.214161" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="RUSSE"/>
+	<Waypoint lat="58.801372" lon="5.497656" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV447"/>
+	<Waypoint lat="58.869331" lon="5.633586" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV449"/>
+	<Waypoint lat="58.928969" lon="5.636283" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV450"/>
+	<Waypoint lat="58.854706" lon="5.604261" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV469"/>
+	<Waypoint lat="58.898" lon="5.393083" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV439"/>
+	<Waypoint lat="58.805036" lon="5.41625" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV440"/>
+	<Waypoint lat="58.8537" lon="5.437322" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV441"/>
+	<Waypoint lat="58.860036" lon="5.531839" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV442"/>
+	<Waypoint lat="58.867228" lon="5.642764" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV443"/>
+	<Waypoint lat="58.864178" lon="5.595528" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV465"/>
+	<Waypoint lat="58.9235" lon="5.6364" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="20LOC"/>
+	<Waypoint lat="58.8986" lon="5.6372" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML18Y"/>
+	<Waypoint lat="58.8422" lon="5.6389" magvar="357.6" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="19LOC"/>
+	<Waypoint lat="58.8655" lon="5.6382" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML36Y"/>
+	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NOVDE" altitude="1100.0F" heading="044.0" missedAltitude="1400.0F" lnav="TRUE" lnavvnav="FALSE" lpv="TRUE" lp="FALSE">
+		<ApproachLegs>	
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IGSUF" altitudeDescriptor="+" altitude1="1300.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV447" magneticCourse="057.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NOVDE" magneticCourse="044.0" distance="3.0N" altitudeDescriptor="+" altitude1="1100.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV469" flyOver="TRUE" magneticCourse="044.0" distance="1.6N" altitudeDescriptor="A" altitude1="486.6F" verticalAngle="-3.4"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV449" flyOver="TRUE" magneticCourse="044.0" distance="1.3N"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV450" turnDirection="L" flyOver="FALSE" altitudeDescriptor="A" altitude1="1400.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" magneticCourse="284.0" distance="13.7N" altitudeDescriptor="A" altitude1="1400.0F"/>
+			<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" magneticCourse="294.0" time="1" altitudeDescriptor="A" altitude1="1400.0F" speedLimit="120"/>
+		</MissedApproachLegs>
+	</Approach>
+	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV442" altitude="1100F" heading="081.0" missedAltitude="1400F" lnav="TRUE" lnavvnav="FALSE" lpv="TRUE" lp="FALSE">
+		<ApproachLegs>	
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" altitudeDescriptor="+" altitude1="1300F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV442" magneticCourse="081.0" distance="3.0N" altitudeDescriptor="+" altitude1="1100F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV465" flyOver="TRUE" magneticCourse="081.0" distance="2.0N" altitudeDescriptor="A" altitude1="360.0F" verticalAngle="-3.5" speedLimit="90"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV443" flyOver="TRUE" magneticCourse="081.0" distance="1.5N" speedLimit="90"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" flyOver="FALSE" altitudeDescriptor="A" altitude1="1400F" speedLimit="90"/>
+			<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" magneticCourse="294.0" time="1" altitudeDescriptor="A" altitude1="1400F" speedLimit="120"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV439" altitude="1300F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV439" altitudeDescriptor="+" altitude1="1300F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" magneticCourse="151.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300F"/>	
+			</TransitionLegs>
+		</Transition>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV440" altitude="1300F">
+			<TransitionLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV440" altitudeDescriptor="+" altitude1="1300F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV441" magneticCourse="011.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300F"/>
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Approach type="RNAV" runway="10" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV407" altitude="1000F" heading="104.0" missedAltitude="1000F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+		<ApproachLegs>	
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IVLIL" altitudeDescriptor="+" altitude1="1000.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV407" magneticCourse="104.0" distance="3.5N" altitudeDescriptor="+" altitude1="1000F"/>	
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV408" flyOver="TRUE" magneticCourse="104.0" distance="1.7N" altitudeDescriptor="A" altitude1="490.0F" verticalAngle="-3.0"/>	
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV409" turnDirection="R" flyOver="TRUE" altitudeDescriptor="A" altitude1="1000F"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMKIK" turnDirection="R" flyOver="FALSE"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="WESTY" altitude="1000.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="WESTY" altitudeDescriptor="+" altitude1="1000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IVLIL" magneticCourse="105.0" distance="7.3N" altitudeDescriptor="+" altitude1="1000.0F"/>
+			</TransitionLegs>
+		</Transition>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMKIK" altitude="1000.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMKIK" altitudeDescriptor="+" altitude1="1000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IVLIL" magneticCourse="033.0" distance="3.0N" altitudeDescriptor="+" altitude1="1000.0F"/>
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Approach type="ILS" runway="18" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" altitude="1500.0F" heading="177.0" missedAltitude="3000.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" recommendedRegion="EN" altitudeDescriptor="J" altitude1="1500.0F" altitude2="1500.0F"/>			
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="6.1N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="H" altitude1="1500.0F" altitude2="1500.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW18" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="1.6N" magneticCourse="177.0" distance="4.7N" altitudeDescriptor="A" altitude1="54.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CD" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="248.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="R" altitudeDescriptor="A" altitude1="3000.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitude="1500.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitudeDescriptor="+" altitude1="1500.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" magneticCourse="087.0" distance="3.0N" altitudeDescriptor="+" altitude1="1500.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Approach type="LOCALIZER" runway="18" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" altitude="1500.0F" heading="177.0" missedAltitude="3000.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" recommendedRegion="EN" altitudeDescriptor="+" altitude1="1500.0F"/>			
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEPMO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="6.1N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="20LOC" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="3.4N" magneticCourse="177.0" distance="2.7N" altitudeDescriptor="V" altitude1="650.0F" altitude2="650.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ML18Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="ZV" theta="357.0" rho="3.4N" magneticCourse="177.0" distance="1.5N" altitudeDescriptor="A" altitude1="170.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CD" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="248.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="R" altitudeDescriptor="A" altitude1="3000.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitude="1500.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitudeDescriptor="+" altitude1="1500.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" magneticCourse="087.0" distance="3.0N" altitudeDescriptor="+" altitude1="1500.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Approach type="ILS" runway="36" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" altitude="1500.0F" heading="357.0" missedAltitude="3000.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" recommendedRegion="EN" altitudeDescriptor="J" altitude1="2000.0F" altitude2="1500.0F"/>			
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="6.0N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="H" altitude1="1500.0F" altitude2="1500.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW36" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="1.6N" magneticCourse="357.0" distance="4.4N" altitudeDescriptor="A" altitude1="79.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CD" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="268.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="L" altitudeDescriptor="A" altitude1="3000.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitude="2000.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitudeDescriptor="+" altitude1="2000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" magneticCourse="068.0" distance="3.0N" altitudeDescriptor="+" altitude1="2000.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Approach type="LOCALIZER" runway="36" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" altitude="1500.0F" heading="357.0" missedAltitude="3000.0F">
+		<ApproachLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" recommendedRegion="EN" altitudeDescriptor="+" altitude1="2000.0F"/>			
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="6.0N" magneticCourse="357.0" distance="2.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="19LOC" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="3.3N" magneticCourse="357.0" distance="2.7N" altitudeDescriptor="V" altitude1="630.0F" altitude2="630.0F" verticalAngle="-3.0"/>
+            <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ML36Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="1.9N" magneticCourse="357.0" distance="1.4N" altitudeDescriptor="A" altitude1="180.0F" verticalAngle="-3.0"/>
+		</ApproachLegs>
+			<MissedApproachLegs>
+			<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CD" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="268.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="L" altitudeDescriptor="A" altitude1="3000.0F"/>
+		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitude="1500.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" altitudeDescriptor="+" altitude1="1500.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPAV" magneticCourse="087.0" distance="3.0N" altitudeDescriptor="+" altitude1="1500.0F"/>	
+			</TransitionLegs>
+		</Transition>
+	</Approach>
+	<Arrival name="EVOL2Q">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="10" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="EVOLO"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV992" magneticCourse="021.0" distance="8.2N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BULUB" magneticCourse="065.0" distance="3.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV991" magneticCourse="140.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV990" magneticCourse="108.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMKIK" turnDirection="L" magneticCourse="003.0" distance="6.0N" altitudeDescriptor="+" altitude1="1000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="UTER2Q">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="10" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UTERU"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BULUB" magneticCourse="142.0" distance="11.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV991" magneticCourse="140.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV990" magneticCourse="108.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMKIK" turnDirection="L" magneticCourse="003.0" distance="6.0N" altitudeDescriptor="+" altitude1="1000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="EVOL1S">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="EVOLO"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMRUN" magneticCourse="036.0" distance="19.9N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV691" magneticCourse="341.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV690" magneticCourse="013.0" distance="3.3N"/>				
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" turnDirection="R" magneticCourse="118.0" distance="6.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="UTER1S">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UTERU"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV692" magneticCourse="108.0" distance="10.9N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AMRUN" magneticCourse="055.0" distance="3.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV691" magneticCourse="341.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV690" magneticCourse="013.0" distance="3.3N"/>				
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ULSUM" turnDirection="R" magneticCourse="118.0" distance="6.0N" altitudeDescriptor="+" altitude1="1500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="EVOL1T">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="36" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="EVOLO"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV792" magneticCourse="058.0" distance="10.4N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVMI" magneticCourse="098.0" distance="3.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV791" magneticCourse="173.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV790" magneticCourse="141.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" turnDirection="L" magneticCourse="035.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Arrival name="UTER1T">
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="36" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UTERU"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVMI" magneticCourse="134.0" distance="18.0N" speedLimit="120"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV791" magneticCourse="173.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV790" magneticCourse="141.0" distance="3.3N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" turnDirection="L" magneticCourse="035.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+	</Arrival>
+	<Departure name="ENZV1Q">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="10" designator="NONE">
+				<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="550.0F"/>
+				<Leg type="VM" turnDirection="R" magneticCourse="104.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ENZV1Z">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="28" designator="NONE">
+				<Leg type="VM" magneticCourse="284.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ENZV3X">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="550.0F"/>
+				<Leg type="VM" turnDirection="R" magneticCourse="177.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ENZV3Y">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="36" designator="NONE">
+				<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="550.0F"/>
+				<Leg type="VM" turnDirection="L" magneticCourse="357.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="INLU3E">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="10" designator="NONE">
+				<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="500.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="INLU2M">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="10" designator="NONE">
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV489" altitudeDescriptor="+" altitude1="500.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" magneticCourse="216.0" distance="2.0N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="INLU1G">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="18" designator="NONE">
+				<Leg type="CA" magneticCourse="177.0" altitudeDescriptor="+" altitude1="450.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV490" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="229.0" distance="2.9N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ETRO1H">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="36" designator="NONE">
+				<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="450.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV590" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ETROM" magneticCourse="297.0" distance="13.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions/>
+	</Departure>
+	</Airport>
+</FSData>

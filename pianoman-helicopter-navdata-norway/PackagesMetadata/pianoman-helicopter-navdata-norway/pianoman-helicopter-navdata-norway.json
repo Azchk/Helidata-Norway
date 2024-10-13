@@ -1,0 +1,22 @@
+{
+  "locations": [
+    {
+      "type": "airport",
+      "airportCode": "ENBR",
+      "latitude": 60.29361113905907,
+      "longitude": 5.21805569529533
+    },
+    {
+      "type": "airport",
+      "airportCode": "ENZV",
+      "latitude": 58.87666650116444,
+      "longitude": 5.63777759671211
+    },
+    {
+      "type": "airport",
+      "airportCode": "ENTX",
+      "latitude": 59.80388604104519,
+      "longitude": 10.84038823843002
+    }
+  ]
+}

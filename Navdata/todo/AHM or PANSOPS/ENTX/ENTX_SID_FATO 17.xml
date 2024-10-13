@@ -1,0 +1,10 @@
+	
+	<Departure name="DIXE1B">
+		<RunwayTransitions/>
+		<CommonRouteLegs/>
+		<EnrouteTransitions>
+				<Leg type="CA" magneticCourse="172.0" altitudeDescriptor="+" altitude1="800.0F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TX511" flyOver="FALSE" turnDirection="R" recommendedType="WAYPOINT" recommendedRegion="EN" recommendedIdent="" theta="" rho="" magneticCourse="179.0" distance="0.5N"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="DIXEB" flyOver="FALSE" turnDirection="R"/>
+		</EnrouteTransitions>
+	</Departure>

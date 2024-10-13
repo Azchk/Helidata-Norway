@@ -1,0 +1,14 @@
+	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NOVDE" altitude="1100.0F" heading="044.0" missedAltitude="1400.0F" lnav="TRUE" lnavvnav="FALSE" lpv="TRUE" lp="FALSE">
+		<ApproachLegs>	
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IGSUF" altitudeDescriptor="+" altitude1="1300.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV447" magneticCourse="057.0" distance="3.0N" altitudeDescriptor="+" altitude1="1300.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NOVDE" magneticCourse="044.0" distance="3.0N" altitudeDescriptor="+" altitude1="1100.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV469" flyOver="TRUE" magneticCourse="044.0" distance="1.6N" altitudeDescriptor="A" altitude1="486.6F" verticalAngle="-3.4"/>
+		</ApproachLegs>
+		<MissedApproachLegs>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV449" flyOver="TRUE" magneticCourse="044.0" distance="1.3N"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV450" turnDirection="L" flyOver="FALSE" altitudeDescriptor="A" altitude1="1400.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" magneticCourse="284.0" distance="13.7N" altitudeDescriptor="A" altitude1="1400.0F"/>
+			<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="RUSSE" turnDirection="L" magneticCourse="294.0" time="1" altitudeDescriptor="A" altitude1="1400.0F" speedLimit="120"/>
+		</MissedApproachLegs>
+	</Approach>
