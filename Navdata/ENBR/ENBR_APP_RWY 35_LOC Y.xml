@@ -5,8 +5,8 @@
             <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="24LOC" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="3.8N" magneticCourse="350.0" distance="0.7N" altitudeDescriptor="V" altitude1="910.0F" altitude2="860.0F" verticalAngle="-3.0"/>
             <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ML35Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="2.1N" magneticCourse="350.0" distance="1.7N" altitudeDescriptor="A" altitude1="364.0F" verticalAngle="-3.0"/>
 		</ApproachLegs>
-	<MissedApproachLegs>
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="16BG" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="2.3N"/>
+		<MissedApproachLegs>
+			<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
 			<Leg type="CD" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" magneticCourse="320.0" distance="7.0N"/>
 			<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="8.0N" magneticCourse="320.0" altitudeDescriptor="A" altitude1="2100.0F"/>
 		</MissedApproachLegs>
