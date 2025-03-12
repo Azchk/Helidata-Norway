@@ -1,4 +1,4 @@
-	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+	<Approach type="RNAV" suffix="3" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
 		<ApproachLegs>
 			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitudeDescriptor="+" altitude1="2000.0F"/>		
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="22NM" recommendedType="TERMINAL_WAYPOINT" recommendedRegion="EN" recommendedIdent="BR710" theta="223.0" rho="2.2N" magneticCourse="043.0" distance="1.7N" altitudeDescriptor="V" altitude1="1320.0F" altitude2="1320.0F" verticalAngle="-3.9"/>		
