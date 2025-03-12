@@ -7,6 +7,14 @@
 	<Waypoint lat="60.3955" lon="4.6481" magvar="357.8" waypointType="NAMED" waypointRegion="EN" waypointIdent="ADADI"/>
 	<Waypoint lat="60.3330" lon="5.1422" magvar="357.3" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR510"/>
 	<Waypoint lat="60.3782" lon="4.9294" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="USDAC"/>
+	<Waypoint lat="60.5064" lon="4.5443" magvar="357.7" waypointType="RNAV" waypointRegion="EN" waypointIdent="KOXAT"/>
+	<Waypoint lat="60.4665" lon="4.8122" magvar="357.7" waypointType="NAMED" waypointRegion="EN" waypointIdent="ORTIV"/>
+	<Waypoint lat="60.4124" lon="4.8100" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR451"/>
+	<Waypoint lat="60.3444" lon="4.5071" magvar="357.7" waypointType="RNAV" waypointRegion="EN" waypointIdent="OXEBU"/>
+	<Waypoint lat="60.3020" lon="4.6945" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR553"/>
+	<Waypoint lat="60.1379" lon="4.7831" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR552"/>
+	<Waypoint lat="60.1439" lon="4.8824" magvar="357.9" waypointType="NAMED" waypointRegion="EN" waypointIdent="NISOV"/>
+	<Waypoint lat="60.1975" lon="4.8992" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR551"/>
 	<Waypoint lat="60.4374" lon="5.0053" magvar="357.3" waypointType="IAF" waypointRegion="EN" waypointIdent="VENIN"/>
 	<Waypoint lat="60.4225" lon="5.1746" magvar="357.3" waypointType="NAMED" waypointRegion="EN" waypointIdent="BAPKI"/>
 	<Waypoint lat="60.3814" lon="5.1885" magvar="357.3" waypointType="FAF" waypointRegion="EN" waypointIdent="FF17Y"/>
@@ -29,10 +37,11 @@
 	<Waypoint lat="60.24049" lon="5.15909" magvar="357.2" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="22NM"/>
 	<Waypoint lat="60.26681" lon="5.21009" magvar="357.3" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR710"/>
 	<Waypoint lat="60.42755" lon="4.97237" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR715"/>
-	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+	<Approach type="RNAV" suffix="3" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+	<Approach type="RNAV" suffix="3" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
 		<ApproachLegs>
 			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitudeDescriptor="+" altitude1="2000.0F"/>		
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="22NM" recommendedType="TERMINAL_WAYPOINT" recommendedRegion="EN" recommendedIdent="BR710" theta="223.0" rho="2.2N" magneticCourse="043.0" distance="1.7N" altitudeDescriptor="V" altitude1="1320.0F" altitude2="1320.0F" verticalAngle="-3.9"/>		
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="22NM" magneticCourse="043.0" distance="1.7N" altitudeDescriptor="V" altitude1="1320.0F" altitude2="1320.0F" verticalAngle="-3.9"/>		
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR710" flyOver="TRUE" magneticCourse="043.0" distance="2.2N" altitudeDescriptor="A" altitude1="420.0F" verticalAngle="-3.9"/>
 		</ApproachLegs>
 		<MissedApproachLegs>
@@ -47,16 +56,15 @@
 		</Transition>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitude="2100.0F">
 			<TransitionLegs>
-			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitudeDescriptor="+" altitude1="2100.0F"/>
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="MOMUX" magneticCourse="043.0" distance="1.6" altitudeDescriptor="+" altitude1="2100.0F"/>
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" magneticCourse="043.0" distance="2.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitudeDescriptor="+" altitude1="2100.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="MOMUX" magneticCourse="043.0" distance="1.6N" altitudeDescriptor="+" altitude1="2100.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" magneticCourse="043.0" distance="2.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
 			</TransitionLegs>
 		</Transition>
 	</Approach>
-	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" altitude="2000.0F" heading="139.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+	<Approach type="RNAV" suffix="9" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" altitude="2000.0F" heading="139.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
 		<ApproachLegs>	
-			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitudeDescriptor="+" altitude1="2000F"/>
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" magneticCourse="139.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" magneticCourse="139.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F" verticalAngle="-3.9"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="13NM" recommendedType="TERMINAL_WAYPOINT" recommendedRegion="EN" recommendedIdent="BR810" theta="319.0" rho="1.3N" magneticCourse="139.0" distance="2.4N" altitudeDescriptor="V" altitude1="1010.0F" altitude2="660.0F" verticalAngle="-3.9"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR810" flyOver="TRUE" magneticCourse="139.0" distance="1.3N" altitudeDescriptor="A" altitude1="480.0F" verticalAngle="-3.9"/>
 		</ApproachLegs>
@@ -65,6 +73,12 @@
 			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR919" turnDirection="R" flyOver="FALSE"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="R" magneticCourse="049.0" distance="6.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
 		</MissedApproachLegs>
+		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
+			<TransitionLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitudeDescriptor="+" altitude1="2000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" magneticCourse="139.0" distance="5.3" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</TransitionLegs>
+		</Transition>
 	</Approach>
 	<Approach type="ILS" runway="17" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FF17Y" altitude="1700.0F" heading="170.0" missedAltitude="2100.0F">
 		<ApproachLegs>
@@ -79,7 +93,7 @@
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitudeDescriptor="+" altitude1="2000.0F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" magneticCourse="099.0" distance="5.1N" altitudeDescriptor="+" altitude1="2000.0F"/>	
 			</TransitionLegs>
 		</Transition>
@@ -98,7 +112,7 @@
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN"  altitudeDescriptor="+" altitude1="2000.0F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" magneticCourse="099.0" distance="5.1N" altitudeDescriptor="+" altitude1="2000.0F"/>	
 			</TransitionLegs>
 		</Transition>
@@ -110,13 +124,13 @@
             <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW35" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="1.6N" magneticCourse="350.0" distance="3.2N" altitudeDescriptor="A" altitude1="202.0F" verticalAngle="-3.0"/>
 		</ApproachLegs>
 		<MissedApproachLegs>
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="16BG" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
+			<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
 			<Leg type="CD" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" magneticCourse="320.0" distance="7.0N"/>
 			<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="8.0N" magneticCourse="320.0" altitudeDescriptor="A" altitude1="2100.0F"/>
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitude="1600.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitudeDescriptor="+" altitude1="1600.0F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" magneticCourse="069.0" distance="5.5N" altitudeDescriptor="+" altitude1="1600.0F"/>	
 			</TransitionLegs>
 		</Transition>
@@ -128,36 +142,65 @@
             <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="24LOC" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="3.8N" magneticCourse="350.0" distance="0.7N" altitudeDescriptor="V" altitude1="910.0F" altitude2="860.0F" verticalAngle="-3.0"/>
             <Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ML35Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="2.1N" magneticCourse="350.0" distance="1.7N" altitudeDescriptor="A" altitude1="364.0F" verticalAngle="-3.0"/>
 		</ApproachLegs>
-	<MissedApproachLegs>
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="16BG" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="2.3N"/>
+		<MissedApproachLegs>
+			<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
 			<Leg type="CD" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" magneticCourse="320.0" distance="7.0N"/>
 			<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="8.0N" magneticCourse="320.0" altitudeDescriptor="A" altitude1="2100.0F"/>
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitude="1600.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitudeDescriptor="+" altitude1="1600.0F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" magneticCourse="069.0" distance="5.5N" altitudeDescriptor="+" altitude1="1600.0F"/>	
 			</TransitionLegs>
 		</Transition>
 	</Approach>
-	<Arrival name="KOXA1N">
-		<EnrouteTransitions/>
-		<CommonRouteLegs/>
+	<Departure name="ADAD2C">
 		<RunwayTransitions>
 			<RunwayTransitionLegs number="17" designator="NONE">
+				<Leg type="CA" magneticCourse="170.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions>
+			<EnrouteTransitionLegs>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="185.0" rho="5601" magneticCourse="215.0" distance="1.6N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AKOVO" magneticCourse="262.0" distance="3.5N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IPLUT" magneticCourse="305.0" distance="5.0N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="304.0" distance="10.5N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</EnrouteTransitionLegs>
+		<EnrouteTransitions/>
+	</Departure>
+	<Departure name="ADAD2D">
+		<RunwayTransitions>
+			<RunwayTransitionLegs number="35" designator="NONE">
+				<Leg type="CA" magneticCourse="350.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			</RunwayTransitionLegs>
+		</RunwayTransitions>
+		<CommonRouteLegs/>
+		<EnrouteTransitions>
+			<EnrouteTransitionLegs>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR510" flyOver="FALSE" turnDirection="L" speedLimit="90"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="USDAC" magneticCourse="292.0" distance="6.9N"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="276.0" distance="8.4N" altitudeDescriptor="+" altitude1="2000.0F"/>
+			</EnrouteTransitionLegs>
+		<EnrouteTransitions/>
+	</Departure>
+	<Arrival name="KOXA1N">
+		<EnrouteTransitions>
+			<EnrouteTransitionLegs>
 				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="KOXAT"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ORTIV" magneticCourse="106.0" distance="8.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR451" magneticCourse="180.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR450" magneticCourse="149.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="L" magneticCourse="043.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
+			</EnrouteTransitionLegs>
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
 		</RunwayTransitions>
 	</Arrival>
 	<Arrival name="OXEB1P">
-		<EnrouteTransitions/>
-		<CommonRouteLegs/>
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="35" designator="NONE">
+		<EnrouteTransitions>
+			<EnrouteTransitionLegs>
 				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="OXEBU"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR553" magneticCourse="113.0" distance="6.1N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR552" magneticCourse="164.0" distance="10.2N"/>
@@ -165,33 +208,10 @@
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR551" magneticCourse="008.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" magneticCourse="039.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" turnDirection="R" magneticCourse="145.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
+			</EnrouteTransitionLegs>
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
 		</RunwayTransitions>
 	</Arrival>
-	<Departure name="ADAD2C">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="17" designator="NONE">
-				<Leg type="CA" magneticCourse="170.0" altitudeDescriptor="+" altitude1="500.0F"/>
-				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="TRUE" turnDirection="R" recommendedType="WAYPOINT" recommendedRegion="EN" recommendedIdent="TX510" theta="0.0" rho="0" magneticCourse="0.0" distance="0.5N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AKOVO" magneticCourse="262.0" distance="3.5N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IPLUT" magneticCourse="305.0" distance="5.0N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="304.0" distance="10.5N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
-	<Departure name="ADAD2D">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="35" designator="NONE">
-				<Leg type="CA" magneticCourse="350.0" altitudeDescriptor="+" altitude1="500.0F"/>
-				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR510" flyOver="FALSE" turnDirection="L" speedLimit="90"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="USDAC" magneticCourse="292.0" distance="6.9N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="276.0" distance="8.4N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
 	</Airport>
 </FSData>

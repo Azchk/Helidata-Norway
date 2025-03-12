@@ -12,7 +12,7 @@
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN"  altitudeDescriptor="+" altitude1="2000.0F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" magneticCourse="099.0" distance="5.1N" altitudeDescriptor="+" altitude1="2000.0F"/>	
 			</TransitionLegs>
 		</Transition>

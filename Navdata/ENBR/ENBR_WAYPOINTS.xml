@@ -4,6 +4,14 @@
 	<Waypoint lat="60.3955" lon="4.6481" magvar="357.8" waypointType="NAMED" waypointRegion="EN" waypointIdent="ADADI"/>
 	<Waypoint lat="60.3330" lon="5.1422" magvar="357.3" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR510"/>
 	<Waypoint lat="60.3782" lon="4.9294" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="USDAC"/>
+	<Waypoint lat="60.5064" lon="4.5443" magvar="357.7" waypointType="RNAV" waypointRegion="EN" waypointIdent="KOXAT"/>
+	<Waypoint lat="60.4665" lon="4.8122" magvar="357.7" waypointType="NAMED" waypointRegion="EN" waypointIdent="ORTIV"/>
+	<Waypoint lat="60.4124" lon="4.8100" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR451"/>
+	<Waypoint lat="60.3444" lon="4.5071" magvar="357.7" waypointType="RNAV" waypointRegion="EN" waypointIdent="OXEBU"/>
+	<Waypoint lat="60.3020" lon="4.6945" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR553"/>
+	<Waypoint lat="60.1379" lon="4.7831" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR552"/>
+	<Waypoint lat="60.1439" lon="4.8824" magvar="357.9" waypointType="NAMED" waypointRegion="EN" waypointIdent="NISOV"/>
+	<Waypoint lat="60.1975" lon="4.8992" magvar="357.8" waypointType="RNAV" waypointRegion="EN" waypointIdent="BR551"/>
 	<Waypoint lat="60.4374" lon="5.0053" magvar="357.3" waypointType="IAF" waypointRegion="EN" waypointIdent="VENIN"/>
 	<Waypoint lat="60.4225" lon="5.1746" magvar="357.3" waypointType="NAMED" waypointRegion="EN" waypointIdent="BAPKI"/>
 	<Waypoint lat="60.3814" lon="5.1885" magvar="357.3" waypointType="FAF" waypointRegion="EN" waypointIdent="FF17Y"/>

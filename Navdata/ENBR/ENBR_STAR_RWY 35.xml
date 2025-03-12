@@ -1,8 +1,6 @@
 	<Arrival name="OXEB1P">
-		<EnrouteTransitions/>
-		<CommonRouteLegs/>
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="35" designator="NONE">
+		<EnrouteTransitions>
+			<EnrouteTransitionLegs>
 				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="OXEBU"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR553" magneticCourse="113.0" distance="6.1N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR552" magneticCourse="164.0" distance="10.2N"/>
@@ -10,6 +8,8 @@
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR551" magneticCourse="008.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" magneticCourse="039.0" distance="3.3N"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" turnDirection="R" magneticCourse="145.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
+			</EnrouteTransitionLegs>
+		<EnrouteTransitions/>
+		<CommonRouteLegs/>
 		</RunwayTransitions>
 	</Arrival>
