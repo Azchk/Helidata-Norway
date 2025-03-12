@@ -11,7 +11,7 @@
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitude="1600.0F">
 			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI" altitudeDescriptor="+" altitude1="1600.0F"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="UPEPI"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" magneticCourse="069.0" distance="5.5N" altitudeDescriptor="+" altitude1="1600.0F"/>	
 			</TransitionLegs>
 		</Transition>
