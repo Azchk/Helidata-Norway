@@ -41,13 +41,13 @@
 	<Approach type="RNAV" suffix="9" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" altitude="2000.0F" heading="139.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
 		<ApproachLegs>
 			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR812" altitudeDescriptor="+" altitude1="2000.0F"/>
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="13NM" recommendedType="TERMINAL_WAYPOINT" recommendedRegion="EN" recommendedIdent="BR810" theta="319.0" rho="1.3N" magneticCourse="139.0" distance="2.4N" altitudeDescriptor="V" altitude1="660.0F" altitude2="1010.0F" verticalAngle="-3.9"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="13NM" magneticCourse="139.0" distance="2.4N" altitudeDescriptor="V" altitude1="660.0F" altitude2="1010.0F" verticalAngle="-3.9"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR810" flyOver="TRUE" magneticCourse="139.0" distance="1.3N" altitudeDescriptor="A" altitude1="516.0F" verticalAngle="-3.9"/>
 		</ApproachLegs>
 		<MissedApproachLegs>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR920" turnDirection="R" flyOver="TRUE" magneticCourse="208.0" distance="8.0N"/>
 			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR919" turnDirection="R" flyOver="FALSE"/>
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="R" magneticCourse="049.0" distance="6.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="R" magneticCourse="049.0" distance="6.0N"/>
 		</MissedApproachLegs>
 		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
 			<TransitionLegs>
