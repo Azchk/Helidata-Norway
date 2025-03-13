@@ -1,24 +1,24 @@
-	<Approach type="RNAV" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
-		<ApproachLegs>
-			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitudeDescriptor="+" altitude1="2000.0F"/>		
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="22NM" recommendedType="TERMINAL_WAYPOINT" recommendedRegion="EN" recommendedIdent="BR710" theta="223.0" rho="2.2N" magneticCourse="043.0" distance="1.7N" altitudeDescriptor="V" altitude1="1320.0F" altitude2="1320.0F" verticalAngle="-3.9"/>		
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR710" flyOver="TRUE" magneticCourse="043.0" distance="2.2N" altitudeDescriptor="A" altitude1="420.0F" verticalAngle="-3.9"/>
-		</ApproachLegs>
-		<MissedApproachLegs>
-			<Leg type="FA" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR710" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="160.0" rho="2.1N" magneticCourse="043.0" altitudeDescriptor="+" altitude1="680.0F"/>
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR715" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="105.0" rho="0.7N" magneticCourse="314.0" distance="11.8N" altitudeDescriptor="A" altitude1="2000.0F"/>
-		</MissedApproachLegs>
-		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" altitude="2000.0F">
-			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" altitudeDescriptor="+" altitude1="2000.0F"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" magneticCourse="103.0" distance="4.7N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</TransitionLegs>
-		</Transition>
-		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitude="2100.0F">
-			<TransitionLegs>
+<Approach type="RNAV" suffix="3" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitude="2000.0F" heading="043.0" missedAltitude="2000.0F" lnav="TRUE" lnavvnav="FALSE" lpv="FALSE" lp="FALSE">
+	<ApproachLegs>
+		<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" altitudeDescriptor="+" altitude1="2000.0F"/>
+		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="22NM" magneticCourse="043.0" distance="1.7N" altitudeDescriptor="V" altitude1="1320.0F" altitude2="1320.0F" verticalAngle="-3.9"/>
+		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR710" flyOver="TRUE" magneticCourse="043.0" distance="2.2N" altitudeDescriptor="A" altitude1="561.0F" verticalAngle="-3.9"/>
+	</ApproachLegs>
+	<MissedApproachLegs>
+		<Leg type="FA" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR710" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="160.0" rho="2.1N" magneticCourse="043.0" altitudeDescriptor="+" altitude1="680.0F"/>
+		<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR715" flyOver="FALSE" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="105.0" rho="0.7N" magneticCourse="314.0" distance="11.8N" altitudeDescriptor="A" altitude1="2000.0F"/>
+	</MissedApproachLegs>
+	<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" altitude="2000.0F">
+		<TransitionLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ELMEG" altitudeDescriptor="+" altitude1="2000.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" magneticCourse="103.0" distance="4.7N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</TransitionLegs>
+	</Transition>
+	<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitude="2100.0F">
+		<TransitionLegs>
 			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VIKSO" altitudeDescriptor="+" altitude1="2100.0F"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="MOMUX" magneticCourse="043.0" distance="1.6" altitudeDescriptor="+" altitude1="2100.0F"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR711" magneticCourse="043.0" distance="2.0" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</TransitionLegs>
-		</Transition>
-	</Approach>
+		</TransitionLegs>
+	</Transition>
+</Approach>

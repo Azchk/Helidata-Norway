@@ -1,31 +1,25 @@
-	<Departure name="ADAD2C">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="17" designator="NONE">
-				<Leg type="CA" magneticCourse="170.0" altitudeDescriptor="+" altitude1="500.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions>
-			<EnrouteTransitionLegs>
-				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="185.0" rho="5601" magneticCourse="215.0" distance="1.6N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AKOVO" magneticCourse="262.0" distance="3.5N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IPLUT" magneticCourse="305.0" distance="5.0N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="304.0" distance="10.5N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</EnrouteTransitionLegs>
-		<EnrouteTransitions/>
-	</Departure>
-	<Departure name="ADAD2D">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="35" designator="NONE">
-				<Leg type="CA" magneticCourse="350.0" altitudeDescriptor="+" altitude1="500.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions>
-			<EnrouteTransitionLegs>
-				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR510" flyOver="FALSE" turnDirection="L" speedLimit="90"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="USDAC" magneticCourse="292.0" distance="6.9N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="276.0" distance="8.4N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</EnrouteTransitionLegs>
-		<EnrouteTransitions/>
-	</Departure>
+<Departure name="ADAD2C">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="17" designator="NONE">
+			<Leg type="CA" magneticCourse="170.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="185.0" rho="5601" magneticCourse="215.0" distance="1.6N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AKOVO" magneticCourse="262.0" distance="3.5N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IPLUT" magneticCourse="305.0" distance="5.0N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="304.0" distance="10.5N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>
+<Departure name="ADAD2D">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="35" designator="NONE">
+			<Leg type="CA" magneticCourse="350.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR510" flyOver="FALSE" turnDirection="L" speedLimit="90"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="USDAC" magneticCourse="292.0" distance="6.9N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="276.0" distance="8.4N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>

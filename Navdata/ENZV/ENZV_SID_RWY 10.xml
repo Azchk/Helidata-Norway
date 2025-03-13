@@ -1,24 +1,24 @@
-	<Departure name="INLU3E">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="10" designator="NONE">
-				<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="500.0F"/>
-				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" flyOver="FALSE" turnDirection="R"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
-	<Departure name="INLU2M">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="10" designator="NONE">
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV489" altitudeDescriptor="+" altitude1="500.0F"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" magneticCourse="216.0" distance="2.0N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
+<Departure name="INLU3E">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="10" designator="NONE">
+			<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" flyOver="FALSE" turnDirection="R"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>
+<Departure name="INLU2M">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="10" designator="NONE">
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV489" altitudeDescriptor="+" altitude1="500.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV477" magneticCourse="216.0" distance="2.0N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ZV491" magneticCourse="238.0" distance="3.0N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="INLUP" magneticCourse="202.0" distance="5.3N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>

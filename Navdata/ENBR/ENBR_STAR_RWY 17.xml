@@ -1,13 +1,13 @@
-	<Arrival name="KOXA1N">
-		<EnrouteTransitions/>
-		<CommonRouteLegs/>
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="17" designator="NONE">
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="KOXAT"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ORTIV" magneticCourse="106.0" distance="8.3N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR451" magneticCourse="180.0" distance="3.3N"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR450" magneticCourse="149.0" distance="3.3N"/>
-				<Leg type="TF" fixType="WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="L" magneticCourse="043.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-	</Arrival>
+<Arrival name="KOXA1N">
+	<EnrouteTransitions/>
+	<CommonRouteLegs/>
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="17" designator="NONE">
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="KOXAT"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ORTIV" magneticCourse="106.0" distance="8.3N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR451" magneticCourse="180.0" distance="3.3N"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR450" magneticCourse="149.0" distance="3.3N"/>
+			<Leg type="TF" fixType="WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="L" magneticCourse="043.0" distance="6.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+</Arrival>

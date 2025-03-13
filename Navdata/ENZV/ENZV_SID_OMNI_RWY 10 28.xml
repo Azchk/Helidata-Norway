@@ -1,19 +1,19 @@
-	<Departure name="ENZV1Q">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="10" designator="NONE">
-				<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="550.0F"/>
-				<Leg type="VM" turnDirection="R" magneticCourse="104.0" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
-	<Departure name="ENZV1Z">
-		<RunwayTransitions>
-			<RunwayTransitionLegs number="28" designator="NONE">
-				<Leg type="VM" magneticCourse="284.0" altitudeDescriptor="+" altitude1="2000.0F"/>
-			</RunwayTransitionLegs>
-		</RunwayTransitions>
-		<CommonRouteLegs/>
-		<EnrouteTransitions/>
-	</Departure>
+<Departure name="ENZV1Q">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="10" designator="NONE">
+			<Leg type="CA" magneticCourse="104.0" altitudeDescriptor="+" altitude1="550.0F"/>
+			<Leg type="VM" turnDirection="R" magneticCourse="104.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>
+<Departure name="ENZV1Z">
+	<RunwayTransitions>
+		<RunwayTransitionLegs number="28" designator="NONE">
+			<Leg type="VM" magneticCourse="284.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</RunwayTransitionLegs>
+	</RunwayTransitions>
+	<CommonRouteLegs/>
+	<EnrouteTransitions/>
+</Departure>

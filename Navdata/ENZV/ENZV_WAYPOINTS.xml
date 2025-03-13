@@ -1,17 +1,17 @@
-	<Waypoint lat="58.776028" lon="5.414917" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="IGSUF"/>
-	<Waypoint lat="58.835783" lon="5.566381" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="NOVDE"/>
-	<Waypoint lat="58.992086" lon="5.214161" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="RUSSE"/>
-	<Waypoint lat="58.801372" lon="5.497656" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV447"/>
-	<Waypoint lat="58.869331" lon="5.633586" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV449"/>
-	<Waypoint lat="58.928969" lon="5.636283" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV450"/>
-	<Waypoint lat="58.854706" lon="5.604261" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV469"/>
-	<Waypoint lat="58.898" lon="5.393083" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV439"/>
-	<Waypoint lat="58.805036" lon="5.41625" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV440"/>
-	<Waypoint lat="58.8537" lon="5.437322" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV441"/>
-	<Waypoint lat="58.860036" lon="5.531839" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV442"/>
-	<Waypoint lat="58.867228" lon="5.642764" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV443"/>
-	<Waypoint lat="58.864178" lon="5.595528" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV465"/>
-	<Waypoint lat="58.9235" lon="5.6364" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="20LOC"/>
-	<Waypoint lat="58.8986" lon="5.6372" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML18Y"/>
-	<Waypoint lat="58.8422" lon="5.6389" magvar="357.6" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="19LOC"/>
-	<Waypoint lat="58.8655" lon="5.6382" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML36Y"/>
+<Waypoint lat="58.776028" lon="5.414917" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="IGSUF"/>
+<Waypoint lat="58.835783" lon="5.566381" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="NOVDE"/>
+<Waypoint lat="58.992086" lon="5.214161" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="RUSSE"/>
+<Waypoint lat="58.801372" lon="5.497656" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV447"/>
+<Waypoint lat="58.869331" lon="5.633586" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV449"/>
+<Waypoint lat="58.928969" lon="5.636283" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV450"/>
+<Waypoint lat="58.854706" lon="5.604261" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV469"/>
+<Waypoint lat="58.898" lon="5.393083" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV439"/>
+<Waypoint lat="58.805036" lon="5.41625" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV440"/>
+<Waypoint lat="58.8537" lon="5.437322" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV441"/>
+<Waypoint lat="58.860036" lon="5.531839" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV442"/>
+<Waypoint lat="58.867228" lon="5.642764" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV443"/>
+<Waypoint lat="58.864178" lon="5.595528" magvar="358.0" waypointType="NAMED" waypointRegion="EN" waypointIdent="ZV465"/>
+<Waypoint lat="58.9235" lon="5.6364" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="20LOC"/>
+<Waypoint lat="58.8986" lon="5.6372" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML18Y"/>
+<Waypoint lat="58.8422" lon="5.6389" magvar="357.6" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="19LOC"/>
+<Waypoint lat="58.8655" lon="5.6382" magvar="357.5" waypointType="UNNAMED" waypointRegion="EN" waypointIdent="ML36Y"/>
