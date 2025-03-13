@@ -1,18 +1,18 @@
-	<Approach type="ILS" runway="36" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" altitude="1500.0F" heading="357.0" missedAltitude="3000.0F">
-		<ApproachLegs>
-			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" recommendedRegion="EN" altitudeDescriptor="J" altitude1="2000.0F" altitude2="1500.0F"/>			
-			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="6.0N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="H" altitude1="1500.0F" altitude2="1500.0F" verticalAngle="-3.0"/>
-            <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW36" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="1.6N" magneticCourse="357.0" distance="4.4N" altitudeDescriptor="A" altitude1="79.0F" verticalAngle="-3.0"/>
-		</ApproachLegs>
-		<MissedApproachLegs>
-			<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="500.0F"/>
-			<Leg type="CD" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="268.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
-			<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="L" altitudeDescriptor="A" altitude1="3000.0F"/>
-		</MissedApproachLegs>
-		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitude="2000.0F">
-			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitudeDescriptor="+" altitude1="2000.0F"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" magneticCourse="068.0" distance="3.0N" altitudeDescriptor="+" altitude1="2000.0F"/>	
-			</TransitionLegs>
-		</Transition>
-	</Approach>
+<Approach type="ILS" runway="36" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" altitude="1500.0F" heading="357.0" missedAltitude="3000.0F">
+	<ApproachLegs>
+		<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" recommendedRegion="EN" altitudeDescriptor="J" altitude1="2000.0F" altitude2="1500.0F"/>
+		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FANGO" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="6.0N" magneticCourse="177.0" distance="2.0N" altitudeDescriptor="H" altitude1="1500.0F" altitude2="1500.0F" verticalAngle="-3.0"/>
+		<Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW36" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="SL" theta="177.0" rho="1.6N" magneticCourse="357.0" distance="4.4N" altitudeDescriptor="A" altitude1="79.0F" verticalAngle="-3.0"/>
+	</ApproachLegs>
+	<MissedApproachLegs>
+		<Leg type="CA" magneticCourse="357.0" altitudeDescriptor="+" altitude1="500.0F"/>
+		<Leg type="CD" turnDirection="L" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="ZOL" magneticCourse="268.0" distance="15.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
+		<Leg type="DF" fixType="VOR" fixRegion="EN" fixIdent="ZOL" flyOver="FALSE" turnDirection="L" altitudeDescriptor="A" altitude1="3000.0F"/>
+	</MissedApproachLegs>
+	<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitude="2000.0F">
+		<TransitionLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="NEVOX" altitudeDescriptor="+" altitude1="2000.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ERUVO" magneticCourse="068.0" distance="3.0N" altitudeDescriptor="+" altitude1="2000.0F"/>
+		</TransitionLegs>
+	</Transition>
+</Approach>

@@ -1,18 +1,18 @@
-	<Approach type="ILS" runway="17" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FF17Y" altitude="1700.0F" heading="170.0" missedAltitude="2100.0F">
-		<ApproachLegs>
-			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="7.4N" altitudeDescriptor="J" altitude1="2000.0F" altitude2="1700.0F" speedLimit="100"/>			
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FF17Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="4.9N" magneticCourse="170.0" distance="2.5N" altitudeDescriptor="H" altitude1="1700.0F" altitude2="1700.0F" verticalAngle="-3.0"/>
-            <Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW17" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="1.6N" magneticCourse="170.0" distance="4.7N" altitudeDescriptor="A" altitude1="218.0F" verticalAngle="-3.0"/>
-		</ApproachLegs>
-		<MissedApproachLegs>
-			<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" magneticCourse="170.0" distance="2.0N"/>
-			<Leg type="CD" turnDirection="R" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" magneticCourse="203.0" distance="7.0N"/>
-			<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" turnDirection="R" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="8.0N" magneticCourse="203.0" altitudeDescriptor="A" altitude1="2100.0F"/>
-		</MissedApproachLegs>
-		<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
-			<TransitionLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitudeDescriptor="+" altitude1="2000.0F"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" magneticCourse="099.0" distance="5.1N" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="100"/>	
-			</TransitionLegs>
-		</Transition>
-	</Approach>
+<Approach type="ILS" runway="17" suffix="Y" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FF17Y" altitude="1700.0F" heading="170.0" missedAltitude="2100.0F">
+	<ApproachLegs>
+		<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="7.4N" altitudeDescriptor="J" altitude1="2000.0F" altitude2="1700.0F" speedLimit="100"/>
+		<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="FF17Y" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="4.9N" magneticCourse="170.0" distance="2.5N" altitudeDescriptor="H" altitude1="1700.0F" altitude2="1700.0F" verticalAngle="-3.0"/>
+		<Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW17" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="1.6N" magneticCourse="170.0" distance="4.7N" altitudeDescriptor="A" altitude1="218.0F" verticalAngle="-3.0"/>
+	</ApproachLegs>
+	<MissedApproachLegs>
+		<Leg type="CD" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" magneticCourse="170.0" distance="2.0N"/>
+		<Leg type="CD" turnDirection="R" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" magneticCourse="203.0" distance="7.0N"/>
+		<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" turnDirection="R" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BR" theta="350.0" rho="8.0N" magneticCourse="203.0" altitudeDescriptor="A" altitude1="2100.0F"/>
+	</MissedApproachLegs>
+	<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
+		<TransitionLegs>
+			<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitudeDescriptor="+" altitude1="2000.0F"/>
+			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BAPKI" magneticCourse="099.0" distance="5.1N" altitudeDescriptor="+" altitude1="2000.0F" speedLimit="100"/>
+		</TransitionLegs>
+	</Transition>
+</Approach>
