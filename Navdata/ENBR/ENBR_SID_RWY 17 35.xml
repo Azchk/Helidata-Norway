@@ -2,7 +2,7 @@
 	<RunwayTransitions>
 		<RunwayTransitionLegs number="17" designator="NONE">
 			<Leg type="CA" magneticCourse="170.0" altitudeDescriptor="+" altitude1="500.0F"/>
-			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="185.0" rho="5601" magneticCourse="215.0" distance="1.6N"/>
+			<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR815" flyOver="FALSE" turnDirection="R" recommendedType="VOR" recommendedRegion="EN" recommendedIdent="FLS" theta="185.0" rho="3.0N" magneticCourse="215.0" distance="1.6N"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="AKOVO" magneticCourse="262.0" distance="3.5N"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="IPLUT" magneticCourse="305.0" distance="5.0N"/>
 			<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="ADADI" magneticCourse="304.0" distance="10.5N" altitudeDescriptor="+" altitude1="2000.0F"/>

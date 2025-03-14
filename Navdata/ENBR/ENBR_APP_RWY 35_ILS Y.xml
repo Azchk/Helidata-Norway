@@ -5,7 +5,7 @@
 		<Leg type="CF" fixType="RUNWAY" fixRegion="EN" fixIdent="RW35" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="1.6N" magneticCourse="350.0" distance="3.2N" altitudeDescriptor="A" altitude1="202.0F" verticalAngle="-3.0"/>
 	</ApproachLegs>
 	<MissedApproachLegs>
-		<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="16BG" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="0.2N" magneticCourse="350.0" distance="1.8N"/>
+		<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BG16" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="350.0" rho="1.6N" magneticCourse="350.0" distance="1.8N"/>
 		<Leg type="CD" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" magneticCourse="320.0" distance="7.0N"/>
 		<Leg type="AF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="TIMTA" turnDirection="L" recommendedType="LOCALIZER" recommendedRegion="EN" recommendedIdent="BG" theta="170.0" rho="8.0N" magneticCourse="320.0" altitudeDescriptor="A" altitude1="2100.0F"/>
 	</MissedApproachLegs>
