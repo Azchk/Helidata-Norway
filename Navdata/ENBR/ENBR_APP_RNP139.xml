@@ -6,7 +6,7 @@
 	</ApproachLegs>
 	<MissedApproachLegs>
 		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR920" turnDirection="R" flyOver="TRUE" magneticCourse="208.0" distance="8.0N"/>
-		<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR919" turnDirection="R" flyOver="FALSE"/>
+		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="BR919" turnDirection="R" flyOver="FALSE" magneticCourse="326.0" distance="11.9N"/>
 		<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" turnDirection="R" magneticCourse="049.0" distance="6.0N" altitudeDescriptor="A" altitude1="2000.0F"/>
 	</MissedApproachLegs>
 	<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="EN" fixIdent="VENIN" altitude="2000.0F">
